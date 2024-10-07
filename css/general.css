@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-color: var(--colorPrimarioAzul) var(--colorSecundarioCeleste);
+    scrollbar-width: 10px;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+    font-family: var(--tipografiaGeneral);
+}
+

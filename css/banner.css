@@ -1,0 +1,21 @@
+ /* Ajustes para el tamaño del banner */
+ .banner {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/banner.jpg);
+  }
+  /* Ajustes para el texto superpuesto */
+  .banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* para centrar */
+    color: white;
+    text-align: center;
+   /*  background-color: rgba(0, 0, 0, 0.5); Fondo semitransparente */ 
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Puedes ajustar los valores */
+  }
+
