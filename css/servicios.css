@@ -1,0 +1,11 @@
+.servicios-card{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(66, 66, 66);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.servicios-card h1{
+    font-size: 80px;
+    color: var(--colorSecundarioCeleste);
+}
